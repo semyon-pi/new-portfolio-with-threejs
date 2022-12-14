@@ -23,7 +23,7 @@ const Header = () => {
       <div>
         <div className='my-2'>
           <p>
-            <span className='text-xs'>SOFTWARE ENGINEER</span>
+            <span className='text-xs font-thin'>SOFTWARE ENGINEER</span>
             <br /> <span className='text-xl'>Semyon Pinhasov</span>
           </p>
         </div>

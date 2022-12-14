@@ -41,12 +41,15 @@ const Footer = () => {
       </div>
       <div>
         <p className='text-xs m-2 py-2 px-5 inline-block border-r'>
-          BASE LOCATION <br /> TLV, Israel
+          <span className='font-thin'>BASE LOCATION</span>
+          <br /> <span>TLV, Israel</span>
         </p>
       </div>
       <div>
         <p className='text-xs m-2 p-2 px-5 inline-block border-l'>
-          CONTACT <br /> Semyonpinhasov@gmail.com
+          <span className='font-thin'>CONTACT</span>
+          <br />
+          <span className=''>Semyonpinhasov@gmail.com</span>
         </p>
       </div>
     </footer>
