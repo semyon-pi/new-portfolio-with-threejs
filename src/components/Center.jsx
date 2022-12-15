@@ -1,10 +1,12 @@
 import React from 'react'
 import NavigationLinks from './NavigationLinks'
+import NavContent from './NavContent'
 
 const Center = () => {
   return (
-    <div className='w-screen h-screen border border-[#EFEFF2]'>
+    <div className='grid grid-cols-3'>
       <NavigationLinks />
+      <NavContent />
     </div>
   )
 }

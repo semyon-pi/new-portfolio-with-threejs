@@ -5,7 +5,7 @@ import Center from './components/Center'
 
 const App = () => {
   return (
-    <div class='flex flex-col h-screen'>
+    <div class='flex flex-col h-screen '>
       <Header />
       <Center />
       <Footer />
