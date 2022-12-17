@@ -1,9 +1,17 @@
 import React from 'react'
+import { useContext } from 'react'
+import { NavContext } from '../context/NavContext'
+
 const Header = () => {
+  const { visible, setVisible } = useContext(NavContext)
+
   return (
-    <div className='h-20 w-screen bg-[#020738]  grid grid-cols-3 text-white border border-[#EFEFF2]'>
+    <div className='h-20 w-screen bg-[#020738] grid grid-cols-3 text-white'>
       <div>
-        <div className='p-4 m-3 bg-[#111B52] inline-block border border-[#EFEFF2] rounded hover:bg-indigo-900 active:bg-indigo-600 cursor-pointer'>
+        <button
+          onClick={() => setVisible(!visible)}
+          className='p-4 m-3 bg-[#111B52] inline-block border border-[#EFEFF2] rounded hover:bg-indigo-900 active:bg-indigo-600 cursor-pointer'
+        >
           <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
@@ -18,7 +26,7 @@ const Header = () => {
               d='M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5'
             />
           </svg>
-        </div>
+        </button>
       </div>
       <div>
         <div className='my-2'>

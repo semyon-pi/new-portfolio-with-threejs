@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='fixed bottom-0 h-16 w-screen bg-[#111B52]  text-white border border-[#EFEFF2] grid grid-cols-3'>
+    <footer className='fixed bottom-0 h-14 w-screen bg-[#111B52]  text-white grid grid-cols-3'>
       <div className='pl-5'>
         <a
-          className='m-2 inline-block py-3 cursor-pointer hover:-translate-y-0.5 transform transition'
+          className='m-2 inline-block py-2 cursor-pointer hover:-translate-y-0.5 transform transition'
           href='https://github.com/semyon-pi?tab=repositories'
           target='_blank'
         >
@@ -14,7 +14,6 @@ const Footer = () => {
             width='16'
             height='16'
             fill='currentColor'
-            class='bi bi-github'
             viewBox='0 0 16 16'
             className='w-6 h-6'
           >
@@ -22,7 +21,7 @@ const Footer = () => {
           </svg>
         </a>
         <a
-          className='m-2 inline-block py-3 cursor-pointer hover:-translate-y-0.5 transform transition'
+          className='m-2 inline-block py-2 cursor-pointer hover:-translate-y-0.5 transform transition'
           href='https://www.linkedin.com/in/semyonpinhasov/'
           target='_blank'
         >
@@ -31,7 +30,6 @@ const Footer = () => {
             width='16'
             height='16'
             fill='currentColor'
-            class='bi bi-linkedin'
             viewBox='0 0 16 16'
             className='w-6 h-6'
           >
@@ -41,14 +39,11 @@ const Footer = () => {
       </div>
       <div>
         <p className='text-xs m-2 py-2 px-5 inline-block border-r'>
-          <span className='font-thin'>BASE LOCATION</span>
-          <br /> <span>TLV, Israel</span>
+          <span>TLV, Israel</span>
         </p>
       </div>
       <div>
         <p className='text-xs m-2 p-2 px-5 inline-block border-l'>
-          <span className='font-thin'>CONTACT</span>
-          <br />
           <span className=''>Semyonpinhasov@gmail.com</span>
         </p>
       </div>
